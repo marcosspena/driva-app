@@ -4,12 +4,15 @@
   "description": "App for testing in a job interview of the Driva Company.",
   "main": "index.js",
   "scripts": {
-    "start": "node server/src/index.js"
+    "start": "nodemon server/src/server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "nodemon": "^3.0.1"
   }
 }
